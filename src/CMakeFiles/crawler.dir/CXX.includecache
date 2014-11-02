@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangchunyang/crawler/src/crawler_main.cc
+crawler_net.h
+/home/zhangchunyang/crawler/src/crawler_net.h
+
+/home/zhangchunyang/crawler/src/crawler_net.cc
+crawler_net.h
+/home/zhangchunyang/crawler/src/crawler_net.h
+
+/home/zhangchunyang/crawler/src/crawler_net.h
+curl/curl.h
+-
+iostream
+-
+map
+-
+string
+-
+
